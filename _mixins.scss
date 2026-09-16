@@ -1,0 +1,11 @@
+// mixin buat flexbox tengah
+@mixin pos-tengah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// mixin animasi
+@mixin efek-transisi {
+  transition: all 0.3s ease;
+}

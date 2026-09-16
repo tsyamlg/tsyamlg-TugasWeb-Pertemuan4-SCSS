@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Biodata & Portofolio">
+    <meta property="og:description" content="Landing page portofolio">
+    <meta property="og:type" content="website">
+
+    <!-- Title -->
+    <title>Biodata & Portofolio - Nikita Anastasya</title>
+    
+    <!-- Link ke file CSS di dalam folder SCSS -->
+    <link rel="stylesheet" href="SCSS/main.css">
+</head>
+    <!-- Header & Navigasi -->
+    <header>
+        <h1>Nikita Anastasya</h1>
+        <p>Mahasiswa Ilmu Komputer | Creative Mind & Art Enthusiast</p>
+
+        <nav>
+            <ul>
+                <li><a href="#tentang">Tentang Saya</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#pengalaman">Pengalaman & Prestasi</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Utama Halaman -->
+    <main>
+
+        <!-- Section 1: Tentang Saya -->
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            
+            <!-- Figure tanpa Gambar (Kutipan Personal untuk Memenuhi Tag Semantik) -->
+            <figure>
+                <blockquote>
+                    "Seni dan logika adalah dua hal yang saling melengkapi. Keindahan lahir dari ide kreatif dan eksekusi yang perfeksionis."
+                </blockquote>
+                <figcaption>— Nikita Anastasya</figcaption>
+            </figure>
+
+            <article>
+                <h3>Profil Singkat</h3>
+                <p>Halo! Saya Nikita Anastasya. Memiliki ketertarikan mendalam pada dunia seni dan kreasi visual menjadikan saya sosok yang eksploratif dan perfeksionis dalam melahirkan karya. Bagi saya, ruang digital adalah media baru untuk menyalurkan ide-ide kreatif dan sentuhan estetika.</p>
+                <p>Halaman ini diperbarui pada <time datetime="2026-08-25">25 Agustus 2026</time>.</p>
+            </article>
+        </section>
+
+        <!-- Section 2: Riwayat Pendidikan -->
+        <section id="pendidikan">
+            <h2>Riwayat Pendidikan</h2>
+            <article>
+                <h3>Perguruan Tinggi</h3>
+                <p>S1 Ilmu Komputer — Jurusan Matematika, <strong>Universitas Negeri Medan</strong></p>
+            </article>
+            <article>
+                <h3>Sekolah Menengah Atas</h3>
+                <p>Alumni <strong>SMAN 1 Kandis</strong></p>
+            </article>
+        </section>
+
+        <!-- Section 3: Pengalaman & Prestasi -->
+        <section id="pengalaman">
+            <h2>Pengalaman & Prestasi</h2>
+            <article>
+                <h3>Kompetisi & Karya Seni</h3>
+                <ul>
+                    <li><strong>Juara 2</strong> Lomba Pembuatan Video Kreatif</li>
+                    <li>Peserta Olimpiade Acoustic di Universitas Riau (UNRI)</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Section 4: Formulir Kontak Interaktif -->
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <p>Atau kirim email langsung ke: <a href="mailto:nikitaamanullang@gmail.com">nikitaamanullang@gmail.com</a></p>
+            
+            <form action="#" method="POST">
+                <div>
+                    <label for="nama">Nama Lengkap:</label><br>
+                    <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Alamat Email:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="nama@email.com">
+                </div>
+                <br>
+
+                <!-- Input Type Khusus (Bonus Points) -->
+                <div>
+                    <label for="tanggal_pesan">Tanggal Kirim:</label><br>
+                    <input type="date" id="tanggal_pesan" name="tanggal_pesan" required>
+                </div>
+                <br>
+                <div>
+                    <label for="warna_favorit">Pilih Warna Akses Aksen:</label><br>
+                    <input type="color" id="warna_favorit" name="warna_favorit" value="#0088cc">
+                </div>
+                <br>
+                <div>
+                    <label for="kepuasan">Tingkat Kesesuaian Desain (1-10):</label><br>
+                    <input type="range" id="kepuasan" name="kepuasan" min="1" max="10" value="9">
+                </div>
+                <br>
+                <div>
+                    <label for="pesan">Pesan / Pesan Singkat:</label><br>
+                    <textarea id="pesan" name="pesan" rows="4" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                </div>
+                <br>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Sidebar / Informasi Tambahan -->
+    <aside>
+        <h2>Minat & Hobi</h2>
+        <ul>
+            <li>Seni Musik (Bermain Gitar)</li>
+            <li>Videografi & Editing Foto/Video</li>
+            <li>Desain & Visual Art</li>
+            <li>Pengembangan Web Semantik</li>
+        </ul>
+    </aside>
+
+    <!-- Footer dengan Copyright -->
+    <footer>
+        <p>&copy; 2026 Nikita Anastasya. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

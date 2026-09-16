@@ -1,0 +1,18 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+button {
+  background-color: $warna-merah;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  @include efek-transisi;
+
+  &:hover {
+    background-color: $warna-merah-hover;
+  }
+}

@@ -1,0 +1,14 @@
+@use '../abstracts/variables' as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-utama;
+  line-height: 1.6;
+  color: $teks-utama;
+  background-color: $bg-halaman;
+}
